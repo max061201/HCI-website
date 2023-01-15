@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
   .overlay {
-    background-image: url('HCI-website/assets/images/baum.jpg');
+    background-image: url('assets/images/baum.jpg');
     background-color: rgba(0, 0, 0, 0.5); /* halbdurchsichtiger schwarzer Hintergrund */
     background-blend-mode: multiply; /* Überlagert das Hintergrundbild mit der semitransparenten Farbe */
     position: absolute; /* um sicherzustellen dass es auf allen Elementen liegt */
