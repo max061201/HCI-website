@@ -8,7 +8,7 @@
 :root {
   --color-default: #364d59;
   --color-primary: #feb900;
-  --color-secondary: #52565e;
+  --color-secondary: rgba(82, 86, 94, 0);
 }
 body { 
     margin: 0;
@@ -32,6 +32,9 @@ body {
     font-size: 60px;
     font-family: var(--font-primary);
   }
+.text-secondary {
+    color: var(--color-secondary);
+}
   .btn-get-started {
     font-family: var(--font-primary);
     font-weight: 500;
@@ -42,7 +45,8 @@ body {
     border-radius: 70px;
     transition: 0.5s;
     margin: 10px;
-    color: #fff;
+    background: var(--color-secondary);
+    color: #ffffff;
     border: 2px solid var(--color-primary);
   }
   
@@ -50,7 +54,7 @@ body {
     background: var(--color-primary);
   }
   .overlay {
-    background-image: url('assets/images/baum.jpg');
+    /*background-image: url('assets/images/baum.jpg');*/
     background-color: rgba(0, 0, 0, 0.5); /* halbdurchsichtiger schwarzer Hintergrund */
     background-blend-mode: multiply; /* Überlagert das Hintergrundbild mit der semitransparenten Farbe */
     position: absolute; /* um sicherzustellen dass es auf allen Elementen liegt */
