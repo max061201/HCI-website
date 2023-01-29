@@ -138,7 +138,7 @@ body {
    }
    /* styling of Input */
    .input {
-    color: #fff;
+    color: #000000;
     font-size: 0.9rem;
     background-color: transparent;
     width: 100%;
@@ -170,6 +170,7 @@ body {
    input:focus ~ .input-border {
     width: 100%;
    }
+
    /* === if you want to do animated border on typing === */
    /* remove input:focus code and uncomment below code */
    /* input:valid ~ .input-border{
