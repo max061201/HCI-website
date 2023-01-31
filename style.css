@@ -53,6 +53,12 @@ body {
   .btn-get-started:hover {
     background: var(--color-primary);
   }
+@media (max-width: 767px) {
+    .btn-get-started {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
   .overlay {
     /*background-image: url('assets/images/baum.jpg');*/
     background-color: rgba(0, 0, 0, 0.5); /* halbdurchsichtiger schwarzer Hintergrund */
@@ -174,7 +180,28 @@ body {
    input:focus ~ .input-border {
     width: 100%;
    }
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: inline;
+    list-style-type:none;
+}
+#footer li {
+    display: inline;
+}
 
+#footer {
+    background: #0070FF;
+    line-height: 1;
+    text-align: center;
+    color: #042E64;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #84BAFF;
+    box-shadow: 0 0 15px #00214B
+}
    /* === if you want to do animated border on typing === */
    /* remove input:focus code and uncomment below code */
    /* input:valid ~ .input-border{
