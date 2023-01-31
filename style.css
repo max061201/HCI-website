@@ -9,6 +9,7 @@
   --color-default: #9a9c9e;
   --color-primary: #feb900;
   --color-secondary: rgba(82, 86, 94, 0);
+  --color-secondary2: rgb(82, 86, 94);
 }
 body { 
     margin: 0;
@@ -202,6 +203,20 @@ body {
     display: inline;
     color: var(--color-default);
     font: var(--font-default);
+}
+#erstelltesevents{
+    background-color: rgba(28, 116, 48, 0.53);
+    width: 70%;
+    margin: 20px auto;
+}
+.erstellteaktion{
+    background-color: var(--color-secondary2);
+    width: 70%;
+    height: 10%;
+    margin: 20px auto;
+    border-color: green;
+    border-style: solid;
+    border: 2px solid var(--color-primary);
 }
 /*#footer {*/
 /*    background: #0070FF;*/
