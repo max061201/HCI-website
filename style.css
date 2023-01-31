@@ -6,7 +6,7 @@
 
 /* Colors */
 :root {
-  --color-default: #364d59;
+  --color-default: #9a9c9e;
   --color-primary: #feb900;
   --color-secondary: rgba(82, 86, 94, 0);
 }
@@ -187,21 +187,33 @@ body {
     display: inline;
     list-style-type:none;
 }
-#footer li {
-    display: inline;
-}
 
-#footer {
-    background: #0070FF;
-    line-height: 1;
-    text-align: center;
-    color: #042E64;
-    font-size: 30px;
-    font-family: sans-serif;
-    font-weight: bold;
-    text-shadow: 0 1px 0 #84BAFF;
-    box-shadow: 0 0 15px #00214B
+#menu li {
+    display: inline;
+
 }
+#menu ul {
+    margin-bottom: 1px;
+    text-align: center;
+    list-style: inside;
+    padding-left: 0px;
+}
+#menu a {
+    display: inline;
+    color: var(--color-default);
+    font: var(--font-default);
+}
+/*#footer {*/
+/*    background: #0070FF;*/
+/*    line-height: 1;*/
+/*    text-align: center;*/
+/*    color: #042E64;*/
+/*    font-size: 30px;*/
+/*    font-family: sans-serif;*/
+/*    font-weight: bold;*/
+/*    text-shadow: 0 1px 0 #84BAFF;*/
+/*    box-shadow: 0 0 15px #00214B*/
+/*}*/
    /* === if you want to do animated border on typing === */
    /* remove input:focus code and uncomment below code */
    /* input:valid ~ .input-border{
