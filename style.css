@@ -73,8 +73,6 @@ body {
     border: 2px solid rgba(254, 185, 0, 0);
 }
 .freundeeinladen:hover {
-
-
     background: var(--color-secondary);
     color: #ffffff;
     border: 2px solid var(--color-primary);
@@ -162,22 +160,40 @@ body {
     font-size: 80px;
     color: white;
   }
+    .fomulardiv{
+        margin-top: 40px;
+        padding: 35px;
+        width: 45%;
+    }
+
   .form {
-    --width-of-input: 300px;
     --border-height: 1px;
-    --border-before-color: rgba(221, 221, 221, 0.39);
+    --border-before-color: rgb(185, 185, 185);
     --border-after-color: #5891ff;
-    --input-hovered-color: #4985e01f;
+
     background-color: #ffffff;
     position: relative;
-    width: var(--width-of-input);
+    width: 400px;
+
+      font-family: var(--font-primary);
+      font-weight: 500;
+      font-size: 18px;
+      letter-spacing: 1px;
+      padding: 5px 10px;
+      border-radius: 70px;
+      transition: 0.5s;
+      margin: 10px;
+      color: #ffffff;
+      border: 2px solid var(--color-primary);
    }
+
    /* styling of Input */
    .input {
     color: #000000;
     font-size: 0.9rem;
     background-color: transparent;
     width: 100%;
+       border-radius: 70px;
     box-sizing: border-box;
     padding-inline: 0.5em;
     padding-block: 0.7em;
@@ -185,22 +201,14 @@ body {
     border-bottom: var(--border-height) solid var(--border-before-color);
    }
    /* styling of animated border */
-   .input-border {
-    position: absolute;
-    background: var(--border-after-color);
-    width: 0%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    transition: 0.3s;
-   }
    /* Hover on Input */
    input:hover {
-    background: var(--input-hovered-color);
+    background: rgba(254, 185, 0, 0.34);
    }
    
    input:focus {
     outline: none;
+       background: rgba(254, 185, 0, 0.34);
    }
    /* here is code of animated border */
    input:focus ~ .input-border {
@@ -307,8 +315,19 @@ body {
           margin: 0.2em;
           font-size: 1.3em ;
       }
+    .fomulardiv{
+        margin-top: 10px;
+        padding: 5px;
+        width: 100%;
+    }
+    .form {
+        width: 280px;
 
+    }
+    .input {
+        width: 100%;
 
+    }
 }
 /*#footer {*/
 /*    background: #0070FF;*/
