@@ -136,16 +136,39 @@ body {
     font-size: 80px;
     color: white;
   }
-  .form {
-    --width-of-input: 300px;
+  .form { 
+    --width-of-input: 500px;
     --border-height: 1px;
     --border-before-color: rgba(221, 221, 221, 0.39);
-    --border-after-color: #5891ff;
+
     --input-hovered-color: #4985e01f;
     background-color: #ffffff;
     position: relative;
     width: var(--width-of-input);
+    font-weight: 500;
+    font-size: 20px;
+
+    letter-spacing: 1px;
+    padding: 4px 50px;
+    border-radius: 70px;
+    transition: 0.5s;
+    margin: 10px;
+    
+    color: white;
+    border: 2px solid var(--color-primary);
    }
+   @media (max-width: 576px) {
+    .form {
+      width: 80%;
+    }
+  }
+  
+
+  
+  
+
+   
+
    /* styling of Input */
    .input {
     color: #000000;
@@ -202,8 +225,10 @@ body {
     text-shadow: 0 1px 0 #84BAFF;
     box-shadow: 0 0 15px #00214B
 }
+
    /* === if you want to do animated border on typing === */
    /* remove input:focus code and uncomment below code */
    /* input:valid ~ .input-border{
      width: 100%;
    } */
+
