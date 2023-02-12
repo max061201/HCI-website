@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#ModalForm">
+    Launch Modal Form
+</button>
+
+<div class="modal fade" id="ModalForm" tabindex="-1" aria-labelledby="ModalFormLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class=" align-items-center justify-content-center ">
+
+                        <h2 class="text-center" >Freunde einladen</h2>
+                        <br>
+
+                        <div class="mb-3 ">
+                            <h6 class="text-center" >Lade Freunde über die Email Adresse ein</h6>
+                            <div class="form">
+                                <input class="input" placeholder="Enter Email" required="" type="text">
+                                <span class="input-border"></span>
+                            </div>
+                            <h6 class="text-center" >Lade Freunde über den Link ein</h6>
+                            <div class="form d-flex align-items-center justify-content-between">
+                                <input class="input" type="text" value="https://www.wichtel-o-mat.de/einladung12345">
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary text-uppercase" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!">
+    Share
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModel" tabindex="-1" aria-labelledby="myModelLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="myModelLabel">Share Modal</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Share this link via</p>
+                <div class="d-flex align-items-center icons">
+                    <a href="#" class="fs-5 d-flex align-items-center justify-content-center">
+                        <span class="fab fa-facebook-f"></span>
+                    </a>
+                    <a href="#" class="fs-5 d-flex align-items-center justify-content-center">
+                        <span class="fab fa-twitter"></span>
+                    </a>
+                    <a href="#" class="fs-5 d-flex align-items-center justify-content-center">
+                        <span class="fab fa-instagram"></span>
+                    </a>
+                    <a href="#" class="fs-5 d-flex align-items-center justify-content-center">
+                        <span class="fab fa-whatsapp"></span>
+                    </a>
+                    <a href="#" class="fs-5 d-flex align-items-center justify-content-center">
+                        <span class="fab fa-telegram-plane"></span>
+                    </a>
+                </div>
+                <p>Or copy link</p>
+                <div class="field d-flex align-items-center justify-content-between">
+                    <span class="fas fa-link text-center"></span>
+                    <input type="text" value="some.com/share">
+                    <button>Copy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

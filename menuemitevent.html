@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="overlay">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top text-right">
+  <div class="container-fluid">
+    <a class="navbar-brand logo" href="index.html">WICHTEL-O-MAT.</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="collapsibleNavbar">
+      <ul class="col text-right navbar-nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link " href="index.html">Start</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Sofunktioniers.html">So funktioniert's!</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Mein Bereich</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Wichtel-Aktion starten</a></li>
+            <li><a class="dropdown-item" href="menuemitevent.html">Übersicht meiner Wichtel</a></li>
+            <li><a class="dropdown-item" href="index.html">Abmelden</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Unterstuetzen.html">Unterstützen</a>
+        </li>
+
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div>
+  <div class="m-2 align-items-center justify-content-center">
+  <div class="container p-2 mt-5 text-white">
+    <h1 class=" text-center ">Meine Wichtelaktionen</h1>
+    <hr class="col-3 offset-3 mt-3 mb-4 " style=" width: 50% ;height:4px;border-width:0;color:rgb(227, 190, 4);background-color:rgb(230, 182, 9)">
+
+    <div id="erstelltesevents">
+      <div class="erstellteaktionmain  .flex-column">
+<!--          <div class="erstellteaktion d-flex justify-content-between align-items-center " >
+            <h4 class="h4 text-center text-secondary2 m-3 ";>Wichtelaktion 1</h4>
+              <div class="Iconsfeld d-flex justify-content-center align-items-center " >
+  &lt;!&ndash;              <i class=" fa-regular fa-envelope"></i>&ndash;&gt;
+                <i class=" fa-regular fa-pen-to-square"></i>
+  &lt;!&ndash;              <i class=" fa-solid fa-trash-can"></i>&ndash;&gt;
+              </div>
+          </div>-->
+
+        <div class="erstellteaktion d-flex justify-content-center align-items-center "style="width: 90%" >
+          <div >
+            <h3> Wichtelaktion 1</h3>
+          </div>
+          <div class="scondary" >
+            <i class=" fa-regular fa-pen-to-square" style="font-size: 1.2em;margin: 0;margin-bottom: 30px;margin-left: 5px;"></i>
+          </div>
+        </div>
+
+
+        <div class="erstellteaktion d-flex justify-content-center align-items-center" >
+          <div class=".flex-column " style="width: 90%">
+          <h5> Eingelandene Freunde </h5>
+          <hr class="hr">
+            <div class=" d-flex justify-content-between align-items-center ">
+
+              <h8 class="klein" > ajabnoor kahn  </h8>
+
+              <div class="status d-flex align-items-center">
+                <span style="font-size: 0.5em; color: #2ebb1c;">
+                <i class="fa-solid fa-circle"></i>
+                  </span>
+                <h8 style="display: inline-block;"> Einladung angenommen </h8>
+              </div>
+              <span class="scondary" style="font-size: 0.8em;">
+                  <i class=" fa-solid fa-trash-can"></i>
+                  </span>
+            </div>
+
+            <hr class="hr2">
+
+            <div class=" d-flex justify-content-between align-items-center ">
+              <h8 class="klein" > KLATTE LATTE  </h8>
+              <div class="status d-flex align-items-center">
+                <span style="font-size: 0.5em; color: rgba(211,20,20,0.81);">
+                <i class="fa-solid fa-circle"></i>
+                  </span>
+                <h8 style="display: inline-block;"> Einladung ausstehend </h8>
+              </div>
+              <span class="scondary" style="font-size: 0.8em;">
+                  <i class=" fa-solid fa-trash-can"></i>
+                  </span>
+            </div>
+
+            <hr class="hr">
+            <div class="d-flex justify-content-center align-items-center" style="">
+              <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#ModalForm">
+                <h7 class="freundeeinladen">+ Freunde einladen</h7>
+              </button>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+    <div id="hero" class="h-10 d-flex align-items-center justify-content-center">
+      <a href="Aktionstarten.html">
+      <button type="button" class="btn-get-started" >Neue Aktion starten</button>
+      </a>
+    </div>
+    <!-- <img src=" assets/images/wood-white-petal-gift-red-christmas-1207560-pxhere.com.jpg" class="col-sm center-div" style="width: 300px;">
+    -->
+  </div>
+
+
+</div>
+
+
+<div class="modal fade" id="ModalForm" tabindex="-1" aria-labelledby="ModalFormLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class=" modal-content">
+      <div class="modal-body">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class=" align-items-center justify-content-center ">
+
+          <h2 class="text-center" >Freunde einladen</h2>
+          <br>
+
+          <div class="mb-3 ">
+            <h6 class="text-center" >Lade Freunde über die Email Adresse ein</h6>
+            <div class="form">
+              <input class="input" placeholder="Enter Email" required="" type="text">
+              <span class="input-border"></span>
+            </div>
+            <h6 class="text-center" >Lade Freunde über den Link ein</h6>
+            <div class="form d-flex align-items-center justify-content-between">
+              <input class="input" type="text" value="https://www.wichtel-o-mat.de/einladung12345">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--<div id="erstelltesevents">
+  <div class="erstellteaktionmain d-flex justify-content-between  ">
+    <div class="erstellteaktion d-flex justify-content-between  " >
+      <h6 class="h6 text-center text-secondary2 m-3 " style="width: 60%";>Wichtelaktion 1</h6>
+      <div class="Iconsfeld d-flex justify-content-between align-items-center " >
+        &lt;!&ndash;              <i class=" fa-regular fa-envelope"></i>&ndash;&gt;
+        <i class=" fa-regular fa-pen-to-square"></i>
+        &lt;!&ndash;              <i class=" fa-solid fa-trash-can"></i>&ndash;&gt;
+      </div>
+    </div>
+
+  </div>-->
+
+<div id="footer" class="bg-dark navbar-dark sticky-bottom">
+  <div id="menu">
+    <ul >
+      <li class="mx-3">
+        <a href="Impressum.html">Impressum</a>
+      </li>
+      <li class="nav-item">
+        <a href="Datenschutz.html">Datenschutz</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</body>
+
+</html>
