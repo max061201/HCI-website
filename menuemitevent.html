@@ -23,21 +23,21 @@
     <div class="collapse navbar-collapse " id="collapsibleNavbar">
       <ul class="col text-right navbar-nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" href="index.html">Start</a>
+          <a class="nav-link " href="index.html">Start</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Sofunktioniers.html">So funktioniert's!</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Mein Bereich</a>
+          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Mein Bereich</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Wichtel-Aktion starten</a></li>
-            <li><a class="dropdown-item" href="#">Übersicht meiner Wichtel</a></li>
-            <li><a class="dropdown-item" href="#">Abmelden</a></li>
+            <li><a class="dropdown-item" href="menuemitevent.html">Übersicht meiner Wichtel</a></li>
+            <li><a class="dropdown-item" href="index.html">Abmelden</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Unterstützen.html">Unterstützen</a>
+          <a class="nav-link" href="Unterstuetzen.html">Unterstützen</a>
         </li>
 
 
@@ -49,7 +49,7 @@
 <div>
   <div class="m-2 align-items-center justify-content-center">
   <div class="container p-2 mt-5 text-white">
-    <h1 class="h2 text-center ">Meine Wichtelaktionen</h1>
+    <h1 class=" text-center ">Meine Wichtelaktionen</h1>
     <hr class="col-3 offset-3 mt-3 mb-4 " style=" width: 50% ;height:4px;border-width:0;color:rgb(227, 190, 4);background-color:rgb(230, 182, 9)">
 
     <div id="erstelltesevents">
@@ -109,7 +109,9 @@
 
             <hr class="hr">
             <div class="d-flex justify-content-center align-items-center" style="">
-            <h7 class="freundeeinladen">+ Freunde einladen</h7>
+              <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#ModalForm">
+                <h7 class="freundeeinladen">+ Freunde einladen</h7>
+              </button>
             </div>
 
 
@@ -123,7 +125,7 @@
 
     <div id="hero" class="h-10 d-flex align-items-center justify-content-center">
       <a href="Aktionstarten.html">
-      <button type="button" class="btn-get-started">Neue Aktion starten</button>
+      <button type="button" class="btn-get-started" >Neue Aktion starten</button>
       </a>
     </div>
     <!-- <img src=" assets/images/wood-white-petal-gift-red-christmas-1207560-pxhere.com.jpg" class="col-sm center-div" style="width: 300px;">
@@ -131,6 +133,37 @@
   </div>
 
 
+</div>
+
+
+<div class="modal fade" id="ModalForm" tabindex="-1" aria-labelledby="ModalFormLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class=" modal-content">
+      <div class="modal-body">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class=" align-items-center justify-content-center ">
+
+          <h2 class="text-center" >Freunde einladen</h2>
+          <br>
+
+          <div class="mb-3 ">
+            <h6 class="text-center" >Lade Freunde über die Email Adresse ein</h6>
+            <div class="form">
+              <input class="input" placeholder="Enter Email" required="" type="text">
+              <span class="input-border"></span>
+            </div>
+            <h6 class="text-center" >Lade Freunde über den Link ein</h6>
+            <div class="form d-flex align-items-center justify-content-between">
+              <input class="input" type="text" value="https://www.wichtel-o-mat.de/einladung12345">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!--<div id="erstelltesevents">

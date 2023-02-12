@@ -7,8 +7,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="css/all.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
 </head>
 
 <body class="overlay">
@@ -21,7 +23,7 @@
     <div class="collapse navbar-collapse " id="collapsibleNavbar">
       <ul class="col text-right navbar-nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" href="index.html">Start</a>
+          <a class="nav-link" href="index.html">Start</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Sofunktioniers.html">So funktioniert's!</a>
@@ -35,7 +37,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Unterstuetzen.html">Unterstützen</a>
+          <a class="nav-link active" href="Unterstuetzen.html">Unterstützen</a>
         </li>
 
 
@@ -44,47 +46,48 @@
   </div>
 </nav>
 
-<div class="m-2 align-items-center justify-content-center">
-  <div class="container p-2  text-white">
-    <div id="erstelltesevents">
-      <div class="erstellteaktionmain  .flex-column">
+<div>
+  <div class="m-2 align-items-center justify-content-center">
+    <div class="container p-2 mt-5 text-white">
+      <h1 class="h2 text-center ">
+        Ihnen gefällt der Wichtel-O-Mat?</h1>
+      <hr class="col-3 offset-3 mt-3 mb-4 " style=" width: 50% ;height:4px;border-width:0;color:rgb(227, 190, 4);background-color:rgb(230, 182, 9)">
 
-        <div class="fomulardiv2 text-white d-flex align-items-center justify-content-center" >
+      <div id="erstelltesevents">
+        <div class="erstellteaktionmain  .flex-column">
 
 
-          <form class=".flex-column align-items-center justify-content-center" action="/action_page.php">
-            <h2 class="text-center" >Login</h2>
-
-            <div class="mb-3 ">
-              <label>E-Mail:</label>
-              <div class="form ">
-                <input class="input" placeholder="Enter E-Mail" required="" type="text">
-                <span class="input-border"></span>
+          <div class="erstellteaktion d-flex justify-content-center align-items-center" >
+            <div class=".flex-column " style="width: 90%">
+              <h8>Vielen Dank! Das freut uns sehr! Wenn Sie noch Verbesserungswünsche oder Ideen für uns haben, können Sie uns gern eine E-Mail zusenden.</h8>
+              <br>
+              <hr class="hr2">
+              <h5>Spenden</h5>
+              <h8>Wer den kostenlosen Wichtel-O-Mat unterstützen möchte, damit wir z. B. die laufenden Kosten der Website stemmen oder den Dienst weiterentwickeln können, kann uns gern einen kleinen Betrag zukommen lassen. Am einfachsten nutzen Sie dafür PayPal.</h8>
+              <br>
+              <div id="hero" class="h-10 d-flex align-items-center justify-content-center">
+                <a href="#">
+                  <button type="button" class="btn-get-started">Hier Spendne via Paypal</button>
+                </a>
               </div>
+              <hr class="hr2">
+              <h5> Alternativ besteht die Möglichkeit einer Überweisung auf das folgende Konto:</h5>
+              <h8>IBAN: DE90 5001 0517 5421 6876 69<br>
+                BIC: INGDDEFFXXX<br>
+                Kontoinhaber: Michael David<br><br>Herzlichen Dank dafür!<br></h8>
+              <hr class="hr">
             </div>
-            <div class="mb-3">
-              <label>Geben Sie bitte Passwort ein:</label>
-              <div class="form">
-                <input class="input" placeholder="Enter Passwort" required="" type="text">
-                <span class="input-border"></span>
-              </div>
-            </div>
-
-
-            <div class="d-flex align-items-center justify-content-center">
-              <a href="menuemitevent.html">
-                <button type="button" href="menuemitevent.html" class="btn-get-started ">Login</button>
-              </a>
-            </div>
-          </form>
-
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
+
+    <!-- <img src=" assets/images/wood-white-petal-gift-red-christmas-1207560-pxhere.com.jpg" class="col-sm center-div" style="width: 300px;">
+    -->
   </div>
 
-</div>
+
 </div>
 
 
@@ -100,7 +103,6 @@
     </ul>
   </div>
 </div>
-</body>
 </body>
 
 </html>
